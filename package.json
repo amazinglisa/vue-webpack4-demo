@@ -1,0 +1,39 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --config build/dev",
+    "build": "webpack --mode production --config build/pro",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^15.2.6",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.3"
+  }
+}

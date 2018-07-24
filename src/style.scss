@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'black';
+    src: url('./font/black_simple.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    background: yellow;
+}
+
+.hello {
+    font-family: 'black';
+    color: yellow;
+}
