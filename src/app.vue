@@ -1,6 +1,6 @@
 <template>
     <section class="main">
-        <p>我来了{{name}}</p>
+        <p>我来了 {{name}}</p>
     </section>
 </template>
 
@@ -8,7 +8,7 @@
     export default {
         data () {
             return {
-                name:"vue + webpack"
+                name: 'vue + webpack'
             }
         }
     }
