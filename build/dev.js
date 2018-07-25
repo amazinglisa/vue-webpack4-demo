@@ -25,12 +25,10 @@ module.exports = merge(common, {
             {
                 test: /\.(scss|css)$/,
                 use: [
-                    // MiniCssExtractPlugin.loader,
                     'vue-style-loader',
                     'css-loader',
                     'sass-loader'
                 ],
-                // include: path.resolve(__dirname, 'src'),
                 exclude: '/node_modules/'
             }
         ]
