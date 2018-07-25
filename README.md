@@ -1,3 +1,4 @@
+``` 
 ├── README.md                   
 ├── build                        webpack 配置文件
 │   ├── common.js                   公共配置
@@ -17,3 +18,4 @@
     ├── img
     ├── index.js
     └── style.scss
+```
