@@ -22,6 +22,12 @@
     └── style.scss
 ```
 
+安装依赖：
+
+``` shell
+npm install
+```
+
 开发环境：
 
 ``` shell
